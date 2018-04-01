@@ -110,3 +110,15 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+.hide{
+    display:none;  
+  }
+
+.same-line {
+    display: inline;
+}
+
+#timer-div {
+    margin-left: 50px;
+}

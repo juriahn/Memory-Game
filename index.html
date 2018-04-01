@@ -7,6 +7,7 @@
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="stylesheet" href="css/app.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -17,14 +18,16 @@
         </header>
 
         <section class="score-panel">
-        	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
+        	<ul class="stars" id="stars">
+        		<li><i class="fa fa-star" id="star1"></i></li>
+        		<li><i class="fa fa-star" id="star2"></i></li>
+        		<li><i class="fa fa-star" id="star3"></i></li>
         	</ul>
 
-        	<span class="moves" id="moves">0</span> Moves
-
+        	<span class="moves" id="moves">0 seconds</span> Moves
+            <div  id="timer-div" class="same-line">
+                    <p class="same-line" id="timer">0</p>
+            </div>
             <div class="restart" id="restart" onclick="startGame()">
         		<i class="fa fa-repeat"></i>
         	</div>
