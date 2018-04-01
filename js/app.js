@@ -300,44 +300,6 @@ function endGame() {
   }
 }
 
-// function onCardClick() {
-//   this.classList.add("show", "open");
-//   cardsClicked++;
-//   matchCards(this);
-// }
-
-// function matchCards(listItem) {
-//   //storing each card clicked into a variable
-//   if (cardsClicked === 1) {
-//     storeCardClassOne = listItem;
-//     console.log(storeCardClassOne);
-//   } else if (cardsClicked === 2) {
-//     storeCardClassTwo = listItem;
-//     console.log(storeCardClassTwo);
-//     //check to see if the cards match
-//     checkSecondCondition();
-//   }
-// }
-
-// const removeOpenAndShowClass = () => {
-//   setTimeout(function() {
-//     storeCardClassOne.classList.remove("open", "show");
-//     storeCardClassTwo.classList.remove("open", "show");
-//   }, 500);
-// };
-
-// function checkSecondCondition() {
-//   if (storeCardClassOne.innerHTML === storeCardClassTwo.innerHTML) {
-//     storeCardClassOne.classList.add("match");
-//     storeCardClassTwo.classList.add("match");
-//     cardsClicked = 0;
-//     console.log("its a match!");
-//   } else {
-//     removeOpenAndShowClass();
-//     cardsClicked = 0;
-//     console.log("nope! Try again!");
-//   }
-// }
 /*
  * set up the event listener for a card. If a card is clicked:
  *  - display the card's symbol (put this functionality in another function that you call from this one)
