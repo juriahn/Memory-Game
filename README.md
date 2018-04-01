@@ -5,7 +5,7 @@
 A card matching game written in JavaScript (with some HTML and CSS) built for the Udacity FrontEnd NanoDegree. 
 
 ## Demo 
-![demo](game.gif)
+![](https://media.giphy.com/media/1wq8XspgDQZSMB5z2b/source.mp4)
 
 ## External Libraries
 
